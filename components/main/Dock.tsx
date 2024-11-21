@@ -5,12 +5,7 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
 } from "@tabler/icons-react";
-import Image from "next/image";
 
 export function Menu() {
   const links = [

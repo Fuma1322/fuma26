@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
   import React from "react";
 import SkillText from "../sub/SkillsText";
+import ProjectsSection from "./ProjectSection";
   
   const Skills = () => {
     return (

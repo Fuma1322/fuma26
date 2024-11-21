@@ -2,9 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { SparklesIcon } from "@heroicons/react/24/solid";
-import Image from "next/image";
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from "@/utils/motion";
+import { slideInFromLeft, slideInFromRight } from "@/utils/motion";
 import { Orbiting } from "../main/Orbit";
 import { Typewriter } from "../main/Type";
 
