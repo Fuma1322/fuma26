@@ -1,5 +1,4 @@
 import Hero from "@/components/main/Hero";
-import ProjectsSection from "@/components/main/ProjectSection";
 import Skills from "@/components/main/Skills";
 
 export default function Home() {
