@@ -30,7 +30,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-[#030014] overflow-x-hidden overflow-y-scroll`}
       >
-        <StarsCanvas />
         <Navbar />
         {children}
       </body>
