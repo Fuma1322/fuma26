@@ -5,7 +5,7 @@ import { TextHoverEffect } from "../ui/text-hover-effect";
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center py-20"
+      className="flex flex-col items-center justify-center"
       id="projects"
     >
       <div className="h-[10rem] flex items-center justify-center">
