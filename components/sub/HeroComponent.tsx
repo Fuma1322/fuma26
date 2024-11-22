@@ -25,7 +25,7 @@ const HeroContent = () => {
         {/* Description */}
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-sm md:text-lg text-gray-400 my-3 md:my-5 max-w-[600px]"
+          className="text-md font-bold md:text-lg text-gray-400 my-3 md:my-5 max-w-[600px] py-10"
         >
           I&apos;m a Full Stack Software Engineer with experience in Website
           and Software development. Welcome to my portfolio website.
