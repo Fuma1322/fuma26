@@ -4,19 +4,31 @@ import { TypewriterEffect } from "../ui/typewriter-effect";
 export function Typewriter() {
   const words = [
     {
+      text: "Join",
+    },
+    {
+      text: "Me",
+    },
+    {
+      text: "And",
+    },
+    {
+      text: "Let",
+    },
+    {
+      text: "Us",
+    },
+    {
       text: "Build",
     },
     {
-      text: "awesome",
+      text: "Awesome",
     },
     {
-      text: "apps",
+      text: "Apps",
     },
     {
-      text: "with",
-    },
-    {
-      text: "ME!",
+      text: "TOGETHER!",
       className: "text-blue-500 dark:text-blue-500",
     },
   ];
