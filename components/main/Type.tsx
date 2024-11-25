@@ -29,7 +29,7 @@ export function Typewriter() {
     },
     {
       text: "TOGETHER!",
-      className: "text-blue-500 dark:text-blue-500",
+      className: "text-[#204E51]",
     },
   ];
   return (

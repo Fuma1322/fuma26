@@ -9,14 +9,14 @@ import SkillText from "../sub/SkillsText";
     return (
       <section
         id="skills"
-        className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20"
+        className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-8"
         style={{ transform: "scale(0.9" }}
       >
         
         <SkillText />
 
         <div className="mt-12 flex justify-center">
-          <ul className="inline-grid grid-cols-2 gap-x-10 gap-y-6 md:gap-x-16 md:grid-cols-3 lg:grid-cols-5">
+          <ul className="inline-grid grid-cols-3 gap-x-10 gap-y-6 md:gap-x-16 md:grid-cols-3 lg:grid-cols-5">
             {/* LOGO 1 */}
             <li>
               <motion.div
@@ -149,7 +149,7 @@ import SkillText from "../sub/SkillsText";
               </motion.div>
             </li>
             {/* LOGO 9 */}
-            <li>
+            <li className="hidden lg:block">
               <motion.div
                 animate={{ y: [0, -30, 0] }}
                 transition={{
