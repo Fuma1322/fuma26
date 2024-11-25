@@ -62,14 +62,14 @@ const config = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		keyframes: {
-				shimmer: {
-				  from: {
-					"backgroundPosition": "0 0"
-				  },
-				  to: {
-					"backgroundPosition": "-200% 0"
-				  }
-				},
+  			shimmer: {
+  				from: {
+  					'backgroundPosition': '0 0'
+  				},
+  				to: {
+  					'backgroundPosition': '-200% 0'
+  				}
+  			},
   			'accordion-down': {
   				from: {
   					height: '0'
@@ -93,13 +93,31 @@ const config = {
   				'100%': {
   					transform: 'rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)'
   				}
+  			},
+  			marquee: {
+  				from: {
+  					transform: 'translateX(0)'
+  				},
+  				to: {
+  					transform: 'translateX(calc(-100% - var(--gap)))'
+  				}
+  			},
+  			'marquee-vertical': {
+  				from: {
+  					transform: 'translateY(0)'
+  				},
+  				to: {
+  					transform: 'translateY(calc(-100% - var(--gap)))'
+  				}
   			}
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out',
   			orbit: 'orbit calc(var(--duration)*1s) linear infinite',
-			shimmer: "shimmer 2s linear infinite",
+  			shimmer: 'shimmer 2s linear infinite',
+  			marquee: 'marquee var(--duration) infinite linear',
+  			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite'
   		}
   	}
   },
