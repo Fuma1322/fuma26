@@ -26,8 +26,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-
-        <div className="flex justify-center items-center">
+        <div className="justify-center items-center hidden lg:block">
             <Menu />
         </div>
       </div>

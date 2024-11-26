@@ -6,7 +6,7 @@ import { RiNextjsFill } from "react-icons/ri";
 
 export function Orbiting() {
   return (
-    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg md:shadow-xl">
+    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg md:shadow-xl py-4">
 
       {/* Inner Circles */}
       <OrbitingCircles
