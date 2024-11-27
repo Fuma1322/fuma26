@@ -78,7 +78,7 @@ const Cards = () => {
   );
 };
 
-const Card = ({ containerRef, src, alt, top, left, rotate, className }: any) => {
+const Card = ({ containerRef, src, alt, top, left, rotate, className }: any | string | boolean | number | React.ReactNode | undefined) => {
   const [zIndex, setZIndex] = useState(0);
 
   const updateZIndex = () => {
@@ -87,7 +87,7 @@ const Card = ({ containerRef, src, alt, top, left, rotate, className }: any) => 
     let maxZIndex = -Infinity;
 
     els.forEach((el) => {
-      let zIndex = parseInt(
+      const zIndex = parseInt(
         window.getComputedStyle(el).getPropertyValue("z-index")
       );
 
