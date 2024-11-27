@@ -2,6 +2,7 @@ import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import Marqueee from "@/components/main/Maquee"
+import { DragCards } from "@/components/main/Drag";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
           <Skills />
           <Projects />
           <Marqueee />
+          <DragCards />
         </div>
       </main>
   );
