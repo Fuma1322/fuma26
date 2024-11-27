@@ -3,20 +3,28 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
+import { slideInFromLeft } from "@/utils/motion";
 
 export const DragCards = () => {
   return (
     <section className="relative grid min-h-screen w-full place-content-center overflow-hidden bg-transparent">
       <h2 className="relative z-0 text-[20vw] font-black text-neutral-800 md:text-[200px]">
-        FUMA<span className="text-[#204E51]">.</span>
+        Welcome<span className="text-[#204E51]">.</span>
       </h2>
+      <motion.p
+          variants={slideInFromLeft(0.8)}
+          className="text-xl font-bold md:text-lg text-gray-400 my-3 md:my-5 max-w-[600px] py-8 p-4"
+        >
+          Hello, My name is Tankiso Fuma. I&apos;m a Full Stack Software Engineer with experience in Website
+          and Software development.
+        </motion.p>
       <Cards />
     </section>
   );
 };
 
 const Cards = () => {
-  const containerRef = useRef<HTMLDivElement>(null); // Specify the type
+  const containerRef = useRef<HTMLDivElement>(null);
 
   return (
     <div className="absolute inset-0 z-10" ref={containerRef}>
