@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
@@ -16,7 +16,7 @@ export const DragCards = () => {
 };
 
 const Cards = () => {
-  const containerRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null); // Specify the type
 
   return (
     <div className="absolute inset-0 z-10" ref={containerRef}>
@@ -78,7 +78,25 @@ const Cards = () => {
   );
 };
 
-const Card = ({ containerRef, src, alt, top, left, rotate, className }: any | string | boolean | number | React.ReactNode | undefined) => {
+interface CardProps {
+  containerRef: React.RefObject<HTMLDivElement>;
+  src: string;
+  alt: string;
+  top: string;
+  left: string;
+  rotate: string;
+  className?: string;
+}
+
+const Card: React.FC<CardProps> = ({
+  containerRef,
+  src,
+  alt,
+  top,
+  left,
+  rotate,
+  className,
+}) => {
   const [zIndex, setZIndex] = useState(0);
 
   const updateZIndex = () => {
@@ -116,8 +134,6 @@ const Card = ({ containerRef, src, alt, top, left, rotate, className }: any | st
       alt={alt}
       drag
       dragConstraints={containerRef}
-      // Uncomment below and remove dragElastic to remove movement after release
-      //   dragMomentum={false}
       dragElastic={0.65}
     />
   );
