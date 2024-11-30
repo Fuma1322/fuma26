@@ -8,12 +8,12 @@ import { slideInFromLeft } from "@/utils/motion";
 export const DragCards = () => {
   return (
     <section className="relative grid min-h-screen w-full place-content-center overflow-hidden bg-transparent">
-      <h2 className="relative z-0 text-[20vw] font-black text-neutral-800 md:text-[200px]">
+      <h2 className="relative z-0 text-[20vw] font-black text-neutral-800 md:text-[200px] mt-36">
         Welcome<span className="text-[#204E51]">.</span>
       </h2>
       <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-xl font-bold md:text-lg text-gray-400 my-3 md:my-5 max-w-[600px] py-8 p-4"
+          className="text-xl font-bold md:text-lg text-gray-400 my-3 md:my-5 max-w-[600px] py-4 p-4"
         >
           Hello, My name is Tankiso Fuma. I&apos;m a Full Stack Software Engineer with experience in Website
           and Software development.
@@ -30,7 +30,7 @@ const Cards = () => {
     <div className="absolute inset-0 z-10" ref={containerRef}>
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1635373670332-43ea883bb081?q=80&w=2781&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="h1.avif"
         alt="Example image"
         rotate="6deg"
         top="20%"
@@ -39,46 +39,37 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1576174464184-fb78fe882bfd?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="h2.avif"
         alt="Example image"
         rotate="12deg"
-        top="45%"
-        left="60%"
+        top="25%"
+        left="65%"
         className="w-24 md:w-48"
       />
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1503751071777-d2918b21bbd9?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="h6.png"
         alt="Example image"
         rotate="-6deg"
-        top="20%"
-        left="40%"
+        top="18%"
+        left="42%"
         className="w-52 md:w-80"
       />
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1620428268482-cf1851a36764?q=80&w=2609&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="h4.avif"
         alt="Example image"
         rotate="8deg"
-        top="50%"
+        top="47%"
         left="40%"
         className="w-48 md:w-72"
       />
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1602212096437-d0af1ce0553e?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="Example image"
-        rotate="18deg"
-        top="20%"
-        left="65%"
-        className="w-40 md:w-64"
-      />
-      <Card
-        containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1622313762347-3c09fe5f2719?q=80&w=2640&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="h5.avif"
         alt="Example image"
         rotate="-3deg"
-        top="35%"
+        top="40%"
         left="55%"
         className="w-24 md:w-48"
       />
