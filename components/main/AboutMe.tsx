@@ -65,12 +65,15 @@ const AboutSection = () => {
           text="About Me"
         />
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am a Full Stack Web Developer with a strong passion for crafting interactive,
+            responsive, and user-centric web applications. My expertise spans a modern tech stack,
+            including React, TypeScript, Next.js, Node.js, Prisma, Framer Motion, Tailwind CSS, HTML,
+            CSS, and Git. I thrive in dynamic environments, consistently delivering clean, scalable,
+            and maintainable code. <br></br>
+            As a quick learner, I am dedicated to expanding my knowledge and skill set to stay ahead
+            in the ever-evolving web development landscape. I value collaboration and excel in team 
+            settings, where I bring enthusiasm and a problem-solving mindset to build innovative and 
+            impactful applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
