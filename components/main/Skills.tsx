@@ -12,9 +12,7 @@ import SkillText from "../sub/SkillsText";
         className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-8"
         style={{ transform: "scale(0.9" }}
       >
-        
         <SkillText />
-
         <div className="mt-12 flex justify-center">
           <ul className="inline-grid grid-cols-3 gap-x-10 gap-y-6 md:gap-x-16 md:grid-cols-3 lg:grid-cols-5">
             {/* LOGO 1 */}
@@ -106,6 +104,7 @@ import SkillText from "../sub/SkillsText";
                 <Image src="/node-js.png" alt="UN" width={70} height={70} />
               </motion.div>
             </li>
+
             {/* LOGO 6 */}
             <li>
               <motion.div
@@ -120,6 +119,7 @@ import SkillText from "../sub/SkillsText";
                 <Image src="/ts.png" alt="200 years logo" width={70} height={70} />
               </motion.div>
             </li>
+
             {/* LOGO 7 */}
             <li>
               <motion.div
@@ -134,6 +134,7 @@ import SkillText from "../sub/SkillsText";
                 <Image src="/prisma.webp" alt="200 years logo" width={70} height={70} />
               </motion.div>
             </li>
+
             {/* LOGO 8 */}
             <li>
               <motion.div
@@ -148,6 +149,7 @@ import SkillText from "../sub/SkillsText";
                 <Image src="/react.png" alt="200 years logo" width={70} height={70} />
               </motion.div>
             </li>
+
             {/* LOGO 9 */}
             <li className="hidden lg:block">
               <motion.div
@@ -162,6 +164,7 @@ import SkillText from "../sub/SkillsText";
                 <Image src="/vercel.svg" alt="200 years logo" width={70} height={70} />
               </motion.div>
             </li>
+
             {/* LOGO 10 */}
             <li>
               <motion.div
