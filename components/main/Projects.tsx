@@ -32,28 +32,28 @@ const Projects = () => {
             <ProjectCard
               src="/th.png"
               title="The Valley"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              description="The Valley is a comprehensive guesthouse management application designed to streamline the operations of a guesthouse or lodging business. The app provides an intuitive interface for both administrators and guests, ensuring seamless management of rooms, bookings, and customer interactions. Built using modern technologies, it prioritizes efficiency, scalability, and a user-friendly experience."
             />
           </Link>
           <Link href="https://www.propertyhive.com.ng" className="cursor-pointer">
             <ProjectCard
               src="/ph.png"
               title="Property Hive"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              description="Property Hive is a cutting-edge real estate management platform designed to address the persistent challenges of the property market. By leveraging modern technology, Property Hive simplifies processes, enhances communication, and ensures secure transactions, providing a seamless experience for buyers, sellers, and renters alike."
             />
           </Link>
           <Link href="https://cryptrack-five.vercel.app" className="cursor-pointer">
           <ProjectCard
             src="/bbn.png"
             title="Cryptrack"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            description="Cryptrack is a cryptocurrency tracker app built using Next.js, TypeScript, and Tailwind CSS. The app allows users to monitor the prices and trends of various cryptocurrencies in real-time. The app is designed to be user-friendly and mobile-responsive, providing essential information such as the current price, 24-hour price change, market cap, and trading volume for selected cryptocurrencies."
           />
           </Link>
           <Link href="https://agrivista-navy.vercel.app" className="cursor-pointer">
           <ProjectCard
             src="/ff.png"
             title="AgriVista"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            description="A modern and responsive landing page for an agriculture-InterPulse project, built using Next.js and Tailwind CSS. This project showcases various sections such as services, featured products, blog, and testimonials. The design is implemented based on a provided Figma file, ensuring attention to detail and mobile responsiveness."
           />
           </Link>
           <Link href="https://www.medialabnetwork.com" className="cursor-pointer">
