@@ -11,7 +11,7 @@ interface CardProps {
 
 const Contact = () => {
   return (
-    <div className="p-4">
+    <div className="p-4" id="contact">
         <p className="text-2xl text-gray-100 font-semibold mb-2 flex justify-center items-center">Contact Me</p>
         <div className="flex flex-wrap gap-4 justify-center items-center py-4">
             <Card
