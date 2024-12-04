@@ -10,7 +10,7 @@ export function ThreeCard() {
       <CardBody className="relative group/card border-black/[0.1] w-auto sm:w-[33rem] h-auto rounded-xl p-6 border">
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src="/coders.png"
+            src="/face.png"
             height="1000"
             width="1000"
             className="h-90 w-full object-cover rounded-xl group-hover/card:shadow-xl"

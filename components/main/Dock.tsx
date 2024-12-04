@@ -14,28 +14,28 @@ export function Menu() {
       icon: (
         <IconBrandX className="h-full w-full text-neutral-200" />
       ),
-      href: "#",
+      href: "https://x.com/FumaTankiso",
     },
     {
       title: "LinkedIn",
       icon: (
         <IconBrandLinkedin className="h-full w-full text-neutral-200" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/tankiso-leonard-fuma-2b16352a5/",
     },
     {
         title: "GitHub",
         icon: (
           <IconBrandGithub className="h-full w-full text-neutral-200" />
         ),
-        href: "#",
+        href: "https://github.com/Fuma1322",
       },
       {
         title: "Facebook",
         icon: (
           <IconBrandFacebook className="h-full w-full text-neutral-200" />
         ),
-        href: "#",
+        href: "https://www.facebook.com/profile.php?id=100008058046488",
       },
   ];
   return (
