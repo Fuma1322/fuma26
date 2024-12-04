@@ -14,8 +14,8 @@ const Navbar = () => {
           </span>
         </a>
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#204E51] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer hover:-translate-y-1 transition duration-400">
+          <div className="flex items-center justify-between w-full h-auto border border-[#204E51] bg-[#0300145e] mr-[15px] px-[10px] py-[10px] rounded-full text-gray-200">
+            <a href="#about" className="cursor-pointer hover:-translate-y-1 transition duration-400">
               About
             </a>
             <a href="#skills" className="cursor-pointer hover:-translate-y-1 transition duration-400">
@@ -23,6 +23,9 @@ const Navbar = () => {
             </a>
             <a href="#projects" className="cursor-pointer hover:-translate-y-1 transition duration-400">
               Projects
+            </a>
+            <a href="#contact" className="cursor-pointer hover:-translate-y-1 transition duration-400">
+              Contact
             </a>
           </div>
         </div>

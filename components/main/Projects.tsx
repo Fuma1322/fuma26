@@ -7,9 +7,8 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center"
-      id="projects"
-    >
+      className="flex flex-col items-center justify-center "
+      id="projects">
       <div className="h-[10rem] flex items-center justify-center">
         <TextHoverEffect text="My Projects" />
       </div>
