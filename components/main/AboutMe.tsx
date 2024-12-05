@@ -69,8 +69,7 @@ const About = () => {
           <p className="text-base lg:text-base">
             I am a Full Stack Web Developer with a strong passion for crafting interactive,
             responsive, and user-centric web applications. My expertise spans a modern tech stack,
-            including React, TypeScript, Next.js, Node.js, Prisma, Framer Motion, Tailwind CSS, HTML,
-            CSS, and Git. I thrive in dynamic environments, consistently delivering clean, scalable,
+            including React, TypeScript, Next.js, Node.js and Tailwind CSS. I thrive in dynamic environments, consistently delivering clean, scalable,
             and maintainable code. <br></br>
             As a quick learner, I am dedicated to expanding my knowledge and skill set to stay ahead
             in the ever-evolving web development landscape. I value collaboration and excel in team 
