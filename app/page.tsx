@@ -1,9 +1,9 @@
-import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
-import Marqueee from "@/components/main/Maquee"
-import { DragCards } from "@/components/main/Drag";
-import Contact from "@/components/main/Contact";
 import About from "@/components/main/AboutMe";
+import Marqueee from "@/components/main/Maquee";
+import Contact from "@/components/main/Contact";
+import Projects from "@/components/main/Projects";
+import { DragCards } from "@/components/main/Drag";
 
 export default function Home() {
   return (

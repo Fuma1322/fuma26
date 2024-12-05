@@ -1,5 +1,5 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 import { ScrollArea } from "@/components/ui/scroll-area"
 
 interface Props {
@@ -21,7 +21,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
 
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <ScrollArea className="h-42 w-full">
+        <ScrollArea className="h-52 w-full">
           <p className="mt-2 text-gray-300">{description}</p>
         </ScrollArea>
       </div>

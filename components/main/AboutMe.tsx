@@ -1,16 +1,16 @@
 "use client";
 
-import React, { useTransition, useState } from "react";
 import TabButton from "./TabButton";
 import { ThreeCard } from "../sub/3dCard";
 import HyperText from "@/components/ui/hyper-text";
+import React, { useTransition, useState } from "react";
 
 const TAB_DATA = [
   {
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 grid grid-cols-3">
         <li>Node.js</li>
         <li>Prisma</li>
         <li>MongoDB</li>
@@ -18,6 +18,8 @@ const TAB_DATA = [
         <li>JavaScript</li>
         <li>React</li>
         <li>TypeScript</li>
+        <li>Framer Motion</li>
+        <li>Git</li>
       </ul>
     ),
   },
@@ -64,7 +66,7 @@ const About = () => {
           className="text-4xl font-bold text-white py-2"
           text="About Me"
         />
-          <p className="text-base lg:text-lg">
+          <p className="text-base lg:text-base">
             I am a Full Stack Web Developer with a strong passion for crafting interactive,
             responsive, and user-centric web applications. My expertise spans a modern tech stack,
             including React, TypeScript, Next.js, Node.js, Prisma, Framer Motion, Tailwind CSS, HTML,
@@ -75,7 +77,7 @@ const About = () => {
             settings, where I bring enthusiasm and a problem-solving mindset to build innovative and 
             impactful applications.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start mt-6">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
