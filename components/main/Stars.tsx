@@ -5,9 +5,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 
-interface StarBackgroundProps {
-  [key: string]: any;
-}
+type StarBackgroundProps = React.ComponentProps<"group">;
 
 const StarBackground: React.FC<StarBackgroundProps> = (props) => {
   const ref = useRef<THREE.Group>(null);
@@ -23,19 +21,13 @@ const StarBackground: React.FC<StarBackgroundProps> = (props) => {
   });
 
   return (
-    <group rotation={[0, 0, Math.PI / 4]}>
-      <Points
-        ref={ref}
-        positions={sphere}
-        stride={3}
-        frustumCulled
-        {...props}
-      >
+    <group ref={ref} rotation={[0, 0, Math.PI / 4]} {...props}>
+      <Points positions={sphere} stride={3} frustumCulled>
         <PointMaterial
           transparent
           color="#fff"
           size={0.002}
-          sizeAttenuation={true}
+          sizeAttenuation
           depthWrite={false}
         />
       </Points>
