@@ -37,6 +37,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
+        <li>Foundations In Computer Science</li>
         <li>Frontend Developer Internpulse</li>
       </ul>
     ),

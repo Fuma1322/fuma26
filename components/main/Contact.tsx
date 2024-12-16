@@ -17,15 +17,15 @@ const Contact = () => {
             <Card
             title="WhatsApp"
             subtitle="+266 56120463"
-            href="#"
+            href="https://wa.me/26656120463"
             Icon={FaWhatsapp}
             />
             <Card
             title="Email"
             subtitle="leonardfuma26@gmail.com"
-            href="#"
+            href="mailto:leonardfuma26@gmail.com"
             Icon={FiMail}
-            />
+          />
         </div>
     </div>
   );
