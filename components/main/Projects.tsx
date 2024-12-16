@@ -14,49 +14,49 @@ const Projects = () => {
       </div>
       <ScrollArea className="h-96 w-full">
         <div className="h-full w-full grid grid-cols-1 lg:grid-cols-3 gap-10 px-10">
-        <Link href="https://www.clinicease.tech" className="cursor-pointer">
+        <Link href="https://www.clinicease.tech" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
           <ProjectCard
             src="/ce.png"
             title="ClinicEase"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           />
           </Link>
-          <Link href="https://www.mangmosotho.com" className="cursor-pointer">
+          <Link href="https://www.mangmosotho.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
             <ProjectCard
               src="/mannn.png"
               title="Mang Mosotho"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             />
           </Link>
-          <Link href="https://the-valley.vercel.app" className="cursor-pointer">
+          <Link href="https://the-valley.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
             <ProjectCard
               src="/th.png"
               title="The Valley"
               description="The Valley is a comprehensive guesthouse management application designed to streamline the operations of a guesthouse or lodging business. The app provides an intuitive interface for both administrators and guests, ensuring seamless management of rooms, bookings, and customer interactions. Built using modern technologies, it prioritizes efficiency, scalability, and a user-friendly experience."
             />
           </Link>
-          <Link href="https://www.propertyhive.com.ng" className="cursor-pointer">
+          <Link href="https://www.propertyhive.com.ng" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
             <ProjectCard
               src="/ph.png"
               title="Property Hive"
               description="Property Hive is a cutting-edge real estate management platform designed to address the persistent challenges of the property market. By leveraging modern technology, Property Hive simplifies processes, enhances communication, and ensures secure transactions, providing a seamless experience for buyers, sellers, and renters alike."
             />
           </Link>
-          <Link href="https://cryptrack-five.vercel.app" className="cursor-pointer">
+          <Link href="https://cryptrack-five.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
           <ProjectCard
             src="/bbn.png"
             title="Cryptrack"
             description="Cryptrack is a cryptocurrency tracker app built using Next.js, TypeScript, and Tailwind CSS. The app allows users to monitor the prices and trends of various cryptocurrencies in real-time. The app is designed to be user-friendly and mobile-responsive, providing essential information such as the current price, 24-hour price change, market cap, and trading volume for selected cryptocurrencies."
           />
           </Link>
-          <Link href="https://agrivista-navy.vercel.app" className="cursor-pointer">
+          <Link href="https://agrivista-navy.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
           <ProjectCard
             src="/ff.png"
             title="AgriVista"
             description="A modern and responsive landing page for an agriculture-InterPulse project, built using Next.js and Tailwind CSS. This project showcases various sections such as services, featured products, blog, and testimonials. The design is implemented based on a provided Figma file, ensuring attention to detail and mobile responsiveness."
           />
           </Link>
-          <Link href="https://www.medialabnetwork.com" className="cursor-pointer">
+          <Link href="https://www.medialabnetwork.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
           <ProjectCard
             src="/slaw.png"
             title="Media Lab"
