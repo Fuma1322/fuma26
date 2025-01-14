@@ -15,7 +15,7 @@ import SkillText from "../sub/SkillsText";
         <SkillText />
         <div className="mt-12 flex justify-center">
           <ul className="inline-grid grid-cols-3 gap-x-10 gap-y-6 md:gap-x-16 md:grid-cols-3 lg:grid-cols-5">
-            {/* LOGO 1 */}
+            {/* LOGO 1 HTML*/}
             <li>
               <motion.div
                 animate={{ y: [0, -30, 0] }}
@@ -35,7 +35,7 @@ import SkillText from "../sub/SkillsText";
               </motion.div>
             </li>
 
-            {/* LOGO 2 */}
+            {/* LOGO 2  CSS*/}
             <li>
               <motion.div
                 animate={{ y: [0, -30, 0] }}
@@ -55,7 +55,7 @@ import SkillText from "../sub/SkillsText";
               </motion.div>
             </li>
 
-            {/* LOGO 3 */}
+            {/* LOGO 3 NEXT.JS*/}
             <li>
               <motion.div
                 animate={{ y: [0, -30, 0] }}
@@ -75,7 +75,7 @@ import SkillText from "../sub/SkillsText";
               </motion.div>
             </li>
             
-            {/* LOGO 4 */}
+            {/* LOGO 4 MONGODB*/}
             <li>
               <motion.div
                 animate={{ y: [0, -30, 0] }}
@@ -90,7 +90,7 @@ import SkillText from "../sub/SkillsText";
               </motion.div>
             </li>
             
-            {/* LOGO 5 */}
+            {/* LOGO 5 NODE.JS*/}
             <li>
               <motion.div
                 animate={{ y: [0, -30, 0] }}
@@ -105,7 +105,7 @@ import SkillText from "../sub/SkillsText";
               </motion.div>
             </li>
 
-            {/* LOGO 6 */}
+            {/* LOGO 6 TYPESCRIPT*/}
             <li>
               <motion.div
                 animate={{ y: [0, -30, 0] }}
@@ -120,7 +120,7 @@ import SkillText from "../sub/SkillsText";
               </motion.div>
             </li>
 
-            {/* LOGO 7 */}
+            {/* LOGO 7 PRISMA*/}
             <li>
               <motion.div
                 animate={{ y: [0, -30, 0] }}
@@ -135,22 +135,7 @@ import SkillText from "../sub/SkillsText";
               </motion.div>
             </li>
 
-            {/* LOGO 8 */}
-            <li>
-              <motion.div
-                animate={{ y: [0, -30, 0] }}
-                transition={{
-                  duration: 2,
-                  ease: "easeInOut",
-                  repeat: Infinity,
-                  repeatType: "loop",
-                }}
-              >
-                <Image src="/react.png" alt="200 years logo" width={70} height={70} />
-              </motion.div>
-            </li>
-
-            {/* LOGO 9 */}
+            {/* LOGO 8 VERCEL*/}
             <li className="hidden lg:block">
               <motion.div
                 animate={{ y: [0, -30, 0] }}
@@ -165,7 +150,22 @@ import SkillText from "../sub/SkillsText";
               </motion.div>
             </li>
 
-            {/* LOGO 10 */}
+            {/* LOGO 9 REACT*/}
+            <li>
+              <motion.div
+                animate={{ y: [0, -30, 0] }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                  repeat: Infinity,
+                  repeatType: "loop",
+                }}
+              >
+                <Image src="/react.png" alt="200 years logo" width={70} height={70} />
+              </motion.div>
+            </li>
+
+            {/* LOGO 10 TAILWIND CSS*/}
             <li>
               <motion.div
                 animate={{ y: [0, -30, 0] }}
