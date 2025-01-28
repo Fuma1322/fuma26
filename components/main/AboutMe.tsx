@@ -100,7 +100,9 @@ const About = () => {
               Certifications
             </TabButton>
           </div>
-          <div className="mt-2">{activeTabContent}</div>
+          <div className="mt-2">
+            {activeTabContent}
+          </div>
         </div>
       </div>
     </section>
