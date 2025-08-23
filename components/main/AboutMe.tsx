@@ -10,19 +10,15 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2 grid grid-cols-3">
-        <li>C</li>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>Next.js</li>
-        <li>React</li>
-        <li>Flask</li>
-        <li>Prisma</li>
-        <li>MongoDB</li>
-        <li>Node.js</li>
-        <li>Framer Motion</li>
-        <li>Git Version Control</li>
+      <ul className="list-disc text-sm pl-2 grid grid-cols-2 gap-2">
+        <li>Full Stack Web Development</li>
+        <li>Frontend Frameworks: React, Next.js</li>
+        <li>Backend Development: Node.js, Django, Flask</li>
+        <li>Database Management: MongoDB, Prisma</li>
+        <li>Programming Languages: C, Python, JavaScript</li>
+        <li>UI & Animation: Framer Motion, Responsive Design</li>
+        <li>Version Control & Collaboration: Git, GitHub</li>
+        <li>API Development & Integration</li>
       </ul>
     ),
   },
@@ -31,7 +27,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Holberton School Lesotho</li>
+        <li><strong>Holberton School Lesotho</strong> — Foundations in Computer Science (2024)</li>
+        <li><strong>FNB App Academy</strong> — Full Stack Development Program (2024)</li>
       </ul>
     ),
   },
@@ -40,8 +37,19 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Foundations In Computer Science</li>
-        <li>Frontend Developer Internpulse</li>
+        <li>Foundations in Computer Science — Holberton School (2024)</li>
+        <li>Frontend Development — InternPulse (2024)</li>
+        <li>Full Stack Development — FNB App Academy (2024)</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Work Experience",
+    id: "work",
+    content: (
+      <ul className="list-disc pl-2">
+        <li><strong>Senior Software Engineer</strong> — Nucleus Devs (6-month contract, 2024)</li>
+        <li><strong>Frontend Developer</strong> — InternPulse (Internship, 2024)</li>
       </ul>
     ),
   },
@@ -71,14 +79,19 @@ const About = () => {
           text="About Me"
         />
           <p className="text-base lg:text-base">
-            I am a Full Stack Web Developer with a strong passion for crafting interactive,
-            responsive, and user-centric web applications. My expertise spans a modern tech stack,
-            including React, TypeScript, Next.js, Node.js and Tailwind CSS. I thrive in dynamic environments, consistently delivering clean, scalable,
-            and maintainable code. <br></br>
-            As a quick learner, I am dedicated to expanding my knowledge and skill set to stay ahead
-            in the ever-evolving web development landscape. I value collaboration and excel in team 
-            settings, where I bring enthusiasm and a problem-solving mindset to build innovative and 
-            impactful applications.
+            I am a Full Stack Developer with a strong foundation in computer science from 
+            <span className="font-semibold"> Holberton School Lesotho</span> and hands-on experience building 
+            scalable, user-focused web applications. I have worked as a Senior Software Engineer
+            at <span className="font-semibold">Nucleus Devs</span> and as a Frontend Developer at 
+            <span className="font-semibold"> InternPulse</span>, where I honed my skills in 
+            modern frameworks such as React, Next.js, Node.js, and Django. 
+            <br /><br />
+            My journey is supported by certifications in 
+            <span className="font-semibold"> Foundations in Computer Science, Frontend Development,</span> 
+            and <span className="font-semibold">Full Stack Development</span>. 
+            I am passionate about building interactive, responsive, and maintainable applications that 
+            solve real-world problems. I thrive in collaborative environments and bring a 
+            problem-solving mindset, adaptability, and enthusiasm to every project.
           </p>
           <div className="flex flex-row justify-start mt-6">
             <TabButton
@@ -98,6 +111,12 @@ const About = () => {
               active={tab === "certifications"}
             >
               Certifications
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("work")}
+              active={tab === "work"}
+            >
+              Work Experience
             </TabButton>
           </div>
           <div className="mt-2">
