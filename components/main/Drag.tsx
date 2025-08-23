@@ -15,8 +15,8 @@ export const DragCards = () => {
           variants={slideInFromLeft(0.8)}
           className="text-xl font-bold md:text-lg text-gray-400 my-3 md:my-5 max-w-[600px] py-4 p-4"
         >
-          Hello, My name is Tankiso Fuma. I&apos;m a Full Stack Software Engineer with experience in Website
-          and Software development.
+          Hello, My name is Tankiso Fuma. I&apos;m a Full Stack Software Developer passionate about creating
+          efficient, scalable and user-centric digital solutions.
         </motion.p>
       <Cards />
     </section>

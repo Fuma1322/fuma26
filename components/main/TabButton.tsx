@@ -13,11 +13,11 @@ const variants = {
 };
 
 const TabButton: React.FC<TabButtonProps> = ({ active, selectTab, children }) => {
-  const buttonClasses = active ? "text-green-700" : "text-[#ADB7BE]";
+  const buttonClasses = active ? "text-gray-700" : "text-green-700";
 
   return (
     <button onClick={selectTab} className="flex flex-col items-start">
-      <p className={`mr-3 font-semibold hover:text-green-700 ${buttonClasses}`}>
+      <p className={`mr-3 font-semibold hover:text-gray-700 ${buttonClasses}`}>
         {children}
       </p>
       <motion.div

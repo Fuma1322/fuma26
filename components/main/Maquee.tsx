@@ -27,9 +27,9 @@ const reviews = [
     img: "https://avatar.vercel.sh/jane",
   },
   {
-    name: "Lebo",
-    username: "@lebo",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    name: "Introvert Blue",
+    username: "@blue",
+    body: "This is so COOL!!",
     img: "https://avatar.vercel.sh/jenny",
   },
   {

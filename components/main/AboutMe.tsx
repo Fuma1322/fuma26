@@ -12,8 +12,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc text-sm pl-2 grid grid-cols-2 gap-2">
         <li>Full Stack Web Development</li>
-        <li>Frontend Frameworks: React, Next.js</li>
-        <li>Backend Development: Node.js, Django, Flask</li>
+        <li>Frontend Frameworks: React, Next.js, Tailwind CSS</li>
+        <li>Backend Development: Node.js, Django</li>
         <li>Database Management: MongoDB, Prisma</li>
         <li>Programming Languages: C, Python, JavaScript</li>
         <li>UI & Animation: Framer Motion, Responsive Design</li>
@@ -93,7 +93,7 @@ const About = () => {
             solve real-world problems. I thrive in collaborative environments and bring a 
             problem-solving mindset, adaptability, and enthusiasm to every project.
           </p>
-          <div className="flex flex-row justify-start mt-6">
+          <div className="flex flex-wrap justify-start gap-2 mt-6">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
