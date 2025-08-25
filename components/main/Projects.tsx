@@ -14,7 +14,7 @@ const Projects = () => {
       </div>
       <ScrollArea className="h-96 w-full">
         <div className="h-full w-full grid grid-cols-1 lg:grid-cols-3 gap-10 px-10">
-        <Link href="https://clinicease.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+        <Link href="https://clinic-ease.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
           <ProjectCard
             src="/ce.png"
             title="ClinicEase"
