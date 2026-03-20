@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-5 text-[15px] text-center">
-            &copy; Tankiso Fuma {new Date().getFullYear()}. All rights reserved.
+            <span>&copy; Tankiso Fuma {new Date().getFullYear()} . All rights reserved.</span>
           </div>
         </div>
       </footer>
