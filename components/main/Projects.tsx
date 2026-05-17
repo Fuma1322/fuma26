@@ -20,6 +20,12 @@ const Projects = () => {
             title="MaseruPlug"
             description="MaseruPlug is a customer acquisition platform that helps small businesses in Lesotho get discovered online through SEO-optimized business profiles and websites, enabling businesses such as nail technicians, salons, and carpenters to rank on Google and connect directly with customers via phone and WhatsApp. As the Founder and Full-Stack Developer, I identified the market opportunity, developed the business strategy, secured early clients, and built the platform using Next.js, TypeScript, Prisma ORM, and MongoDB."/>
           </Link>
+          <Link href="https://clinic-ease.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+          <ProjectCard
+            src="/ce.png"
+            title="Cryptrack"
+            description="Cryptrack is a cryptocurrency tracker app built using Next.js, TypeScript, and Tailwind CSS. The app allows users to monitor the prices and trends of various cryptocurrencies in real-time. The app is designed to be user-friendly and mobile-responsive, providing essential information such as the current price, 24-hour price change, market cap, and trading volume for selected cryptocurrencies."/>
+          </Link>
         <Link href="https://clinic-ease.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
           <ProjectCard
             src="/ce.png"
