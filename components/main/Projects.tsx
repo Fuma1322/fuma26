@@ -39,13 +39,6 @@ const Projects = () => {
               description="The Valley is a comprehensive guesthouse management application designed to streamline the operations of a guesthouse or lodging business. The app provides an intuitive interface for both administrators and guests, ensuring seamless management of rooms, bookings, and customer interactions. Built using modern technologies, it prioritizes efficiency, scalability, and a user-friendly experience."
             />
           </Link>
-          <Link href="https://www.mangmosotho.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
-            <ProjectCard
-              src="/mannn.png"
-              title="Mang Mosotho"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
-          </Link>
           <Link href="https://agrivista-navy.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
           <ProjectCard
             src="/ff.png"
