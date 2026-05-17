@@ -22,7 +22,7 @@ const Projects = () => {
           </Link>
           <Link href="https://cryptrack-five.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
           <ProjectCard
-            src="/ce.png"
+            src="/cryptrack.jpg"
             title="Cryptrack"
             description="Cryptrack is a cryptocurrency tracker app built using Next.js, TypeScript, and Tailwind CSS. The app allows users to monitor the prices and trends of various cryptocurrencies in real-time. The app is designed to be user-friendly and mobile-responsive, providing essential information such as the current price, 24-hour price change, market cap, and trading volume for selected cryptocurrencies."/>
           </Link>
