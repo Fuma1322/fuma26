@@ -14,6 +14,12 @@ const Projects = () => {
       </div>
       <ScrollArea className="h-96 w-full">
         <div className="h-full w-full grid grid-cols-1 lg:grid-cols-3 gap-10 px-10">
+          <Link href="https://maseru-plug.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+          <ProjectCard
+            src="https://i1z8h726r3.ufs.sh/f/FjEHfltRqY3Vtvox7qQGkCET5dgFGV20OUqSHA4rv97eW8pZ"
+            title="MaseruPlug"
+            description="MaseruPlug is a customer acquisition platform that helps small businesses in Lesotho get discovered online through SEO-optimized business profiles and websites, enabling businesses such as nail technicians, salons, and carpenters to rank on Google and connect directly with customers via phone and WhatsApp. As the Founder and Full-Stack Developer, I identified the market opportunity, developed the business strategy, secured early clients, and built the platform using Next.js, TypeScript, Prisma ORM, and MongoDB."/>
+          </Link>
         <Link href="https://clinic-ease.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
           <ProjectCard
             src="/ce.png"
