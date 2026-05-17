@@ -22,7 +22,7 @@ const Projects = () => {
           </Link>
           <Link href="https://cryptrack-five.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
           <ProjectCard
-            src="/cryptrack.jpg"
+            src="/bbn.png"
             title="Cryptrack"
             description="Cryptrack is a cryptocurrency tracker app built using Next.js, TypeScript, and Tailwind CSS. The app allows users to monitor the prices and trends of various cryptocurrencies in real-time. The app is designed to be user-friendly and mobile-responsive, providing essential information such as the current price, 24-hour price change, market cap, and trading volume for selected cryptocurrencies."/>
           </Link>
@@ -38,13 +38,6 @@ const Projects = () => {
               title="The Valley"
               description="The Valley is a comprehensive guesthouse management application designed to streamline the operations of a guesthouse or lodging business. The app provides an intuitive interface for both administrators and guests, ensuring seamless management of rooms, bookings, and customer interactions. Built using modern technologies, it prioritizes efficiency, scalability, and a user-friendly experience."
             />
-          </Link>
-          <Link href="https://cryptrack-five.vercel.app" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
-          <ProjectCard
-            src="/bbn.png"
-            title="Cryptrack"
-            description="Cryptrack is a cryptocurrency tracker app built using Next.js, TypeScript, and Tailwind CSS. The app allows users to monitor the prices and trends of various cryptocurrencies in real-time. The app is designed to be user-friendly and mobile-responsive, providing essential information such as the current price, 24-hour price change, market cap, and trading volume for selected cryptocurrencies."
-          />
           </Link>
           <Link href="https://www.mangmosotho.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
             <ProjectCard
